@@ -8,8 +8,10 @@ public class SumRecursion {
 		if(idx == arr.length) {
 			return 0;
 		}
+		//  recursion work
 		int smallAns = printSum(arr,idx+1);
-		
+
+		// self work
 		return arr[idx] + smallAns;
 		
 	}
